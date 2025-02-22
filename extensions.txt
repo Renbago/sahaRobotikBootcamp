@@ -1,0 +1,16 @@
+Extensions installed on WSL: Ubuntu-22.04:
+althack.ament-task-provider
+formulahendry.docker-explorer
+george3447.docker-run
+github.copilot
+github.copilot-chat
+llvm-vs-code-extensions.vscode-clangd
+mhutchie.git-graph
+ms-azuretools.vscode-docker
+ms-vscode.cmake-tools
+ms-vscode.cpptools
+ms-vscode.cpptools-extension-pack
+ms-vscode.cpptools-themes
+nonanonno.vscode-ros2
+twxs.cmake
+yy0931.vscode-sqlite3-editor
