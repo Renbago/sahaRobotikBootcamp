@@ -20,7 +20,7 @@ Docker [installation](https://docs.docker.com/engine/install/ubuntu/), docker ku
 Bunu linux sistemine bağlanmış olduğunuz terminalden çalıştırmanız gerekiyor.
 
 # Extensions
-extensions'lara iletmiş oldugum [txt](niceToHave/extensions.txt) den teker teker indirebilirsiniz. 
+extensions'lara iletmiş oldugum [txt](https://github.com/Renbago/sahaRobotikEgitim/blob/main/niceToHave/extensions.txt) den teker teker indirebilirsiniz. 
 
 Ya da extensions.txt nin bulunduğu dizine gidip ```cat extensions.txt | xargs -L 1 code --install-extension``` ile indirebilirsiniz.
 
