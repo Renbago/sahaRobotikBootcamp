@@ -23,3 +23,7 @@ Uygulamanızda veya Dockerfile’da değişiklik yaptıysanız ve görüntüyü 
 4.container a sağ tıkla ve **Attach Visual Studio Code**.
 
 Bu adımlar Docker container'ı içindeki dosya sistemine bağlı bir Vsiual Studio Code açar. Yaptığınız uygulamaları doğrudan container içerisinde geliştirebilirsiniz.
+
+### 4. SH
+
+Terminal'e bağlanmak için: ``` docker exec -it ros_egitim_ws /bin/bash ```

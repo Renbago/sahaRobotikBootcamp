@@ -1,0 +1,6 @@
+* [what is ros-Citation](https://www.science.org/doi/10.1126/scirobotics.abm6074)
+* [Main source](https://docs.ros.org/en/humble/index.html)
+* [Basic Concepts](https://docs.ros.org/en/humble/Concepts/Basic.html)
+* [Nav2] (https://docs.nav2.org/getting_started/index.html)
+* [First time robot setup guide](https://docs.nav2.org/setup_guides/index.html)
+* [turtlebot3](https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/)

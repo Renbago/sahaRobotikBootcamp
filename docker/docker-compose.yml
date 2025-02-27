@@ -12,12 +12,14 @@ services:
       - type: bind
         source: /dev
         target: /dev  
+    runtime: nvidia  # NVIDIA GPU desteğini etkinleştirir amd kullanıyorsanız yorum satırına alabilirsiniz.
     device_cgroup_rules:
       - 'c 81:* rmw'
       - 'c 189:* rmw'      
     environment:
-      - DISPLAY=:1
+      - DISPLAY=${DISPLAY}
       - TZ=Turkey
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility,graphics
     container_name: ros_egitim_ws
     command: /bin/bash
     tty: true
