@@ -18,6 +18,9 @@ version olarak ``` Ubuntu-22.04``` kullanıyoruz. Referans komut: ``` wsl.exe --
 
 IDE olarak VSCode [installation](https://code.visualstudio.com/download) kullanıyorum. 
 
+
+[Docker nedir ?](https://forum.yazbel.com/t/docker-tam-olarak-nedir/13685/2)
+
 Docker [installation](https://docs.docker.com/engine/install/ubuntu/), docker kullanımını da windows docker yerine wsl de yapıyorum Tüm sistemim windowstan bağımsız olmuş oluyor.
 Bunu linux sistemine bağlanmış olduğunuz terminalden çalıştırmanız gerekiyor.
 
