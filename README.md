@@ -4,7 +4,7 @@ Merhabalar herkese, bu eğitimde kullanılan kaynakları burada yayınlayacağı
 
 Eğitimin hedefi, github-wsl-docker gibi temel araçlarla başlayarak. Devamında takıldıgımız problemleri nasıl araştıracağımıza ineceğim.
 
-Aslında incelendiği zaman bir sürü ROS eğitimi bulunmakta fakat kimse bir proje yönetilmesi hususunda problem yaşadığınız zaman nasıl araştıracağınızı, nasıl adım adım yaklaşacağınızı anlatmayı hedeflemekteyiz.  
+Aslında incelendiği zaman bir sürü ROS eğitimi bulunmakta fakat kimse bir proje yönetilmesi hususunda problem yaşadığınız zaman nasıl araştıracağınızı öğretmemekte, bizler problemlere nasıl adım adım yaklaşacağınızı anlatmayı hedeflemekteyiz.  
 
 # Getting Started
  * [Installations](pages/Installations.md)
