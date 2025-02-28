@@ -26,6 +26,13 @@ RUN apt-get update && apt-get install -y \
 
 RUN apt install cppzmq-dev ros-humble-ros-gz -y --no-install-recommends --no-install-suggests || true
 
+RUN mkdir -p /home/$USERNAME/ros2_ws/src && \
+    cd /home/$USERNAME/ros2_ws/src && \
+    git clone https://github.com/ros/ros_tutorials.git -b humble && \
+    cd /home/$USERNAME/ros2_ws && \
+    source /opt/ros/humble/setup.bash && \
+    colcon build --symlink-install
+
 USER $USERNAME
 WORKDIR /home/$USERNAME
 
