@@ -17,8 +17,7 @@ find_package(rclcpp REQUIRED) # C++ ROS 2 desteği find_package(rclpy REQUIRED) 
 
 # Python betiğin burada olmalı DESTINATION lib/${PROJECT_NAME} )
 install(PROGRAMS 
-  scripts/my_python_node.py) 
-
+  scripts/test.py) 
 
 add_executable(my_node src/my_node.cpp)
 target_include_directories(my_node PUBLIC
