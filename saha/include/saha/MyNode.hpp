@@ -23,7 +23,6 @@ private:
     rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr turtlebot_twist_pub_;
 
     std::thread keyboard_thread_;
-
     std::atomic_bool running_;
 };
 

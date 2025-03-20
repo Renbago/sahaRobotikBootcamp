@@ -24,7 +24,6 @@ SahaNode::SahaNode()
   : Node("saha_node"), running_(true)
 {
   turtlebot_twist_pub_ = this->create_publisher<geometry_msgs::msg::Twist>("turtle1/cmd_vel", 10);
-  
   keyboard_thread_ = std::thread(&SahaNode::keyboardLoop, this);
 }
 
