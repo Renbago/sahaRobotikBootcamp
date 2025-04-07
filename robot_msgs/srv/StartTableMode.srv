@@ -1,0 +1,5 @@
+bool save_table_mode
+int64 table_id
+
+---
+bool success
