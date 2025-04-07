@@ -1,0 +1,7 @@
+<library path="rviz_tools">
+  <class name="rviz_tools/RobotPosePublisherTool"
+         type="robot_pose_tool::RobotPosePublisherTool"
+         base_class_type="rviz_common::Tool">
+    <description>A tool to publish the current robot pose to a topic.</description>
+  </class>
+</library>
